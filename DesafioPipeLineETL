@@ -1,0 +1,9 @@
+1.	Aqui apresento uma solução de ETL para uma loja de tênis e ele contempla o desafio "Explorando IA Generativa em um Pipeline de ETL com Python"
+
+2.	Foi utilizada a planilha de vendas da minha loja, que continha informações de sobre os clientes do ultimo mês, pois o próximo mês já se inicia a época natalina.
+
+3.	Pensando em melhorar as vendas, vamos extrair os dados dos clientes e ranquear por valor gasto e vamos enviar aos 30 primeiros uma mensagem personalizada, para atrair o cliente a novas compras de natal.
+
+4.	Depois de ranquear, foi gerada através API do OpenAI novas mensagens personalizadas de natal convidando os clientes a visitar a loja.
+
+5.	Na ultima etapa, salvamos as linhas com informações das mensagens de natal para cada cliente em especifico e incluímos as informações no sistema da loja, e efetuamos a disparada de e-mails através do sistema interno da loja.
